@@ -6,4 +6,3 @@ public class TaxiNotFoundException extends RuntimeException {
         System.out.println(message);
     }
 }
-

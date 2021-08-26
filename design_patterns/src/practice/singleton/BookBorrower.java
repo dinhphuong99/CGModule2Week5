@@ -6,7 +6,6 @@ public class BookBorrower {
 
     public void borrowBook() {
         borrowedBook = BookSingleton.borrowBook();
-
         haveBook = borrowedBook != null;
     }
 
